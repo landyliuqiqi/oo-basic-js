@@ -2,7 +2,7 @@
 
 describe('tests of practice 01', function () {
 
-    it("given Persion with age=21 and name is Tom, get introduce", function () {
+    it("given Person with age 21 and name is Tom, get introduce", function () {
 
         var person = new Person(21, "Tom");
         var intro = person.introduce();
